@@ -1,3 +1,4 @@
 /gh-new-repo
 /dist/
 *.out
+.DS_Store

@@ -16,6 +16,24 @@ GitHub リポジトリを作成するたびに、可視性やマージ方式な�
 - UI は英語と日本語に対応
 - オプションで [`gh-rulekit`](https://github.com/nobuo-miura/gh-rulekit) の保存済みルールセットを適用
 
+## スクリーンショット
+
+`gh new-repo <name>` は、作成前にサマリを表示して確認を求めます。
+
+![確認サマリ](images/ja-create.jpeg)
+
+名前なし（または `--interactive`）で実行すると、すべての設定をフォームで確認できます。
+
+![対話フォーム](images/ja-set.jpeg)
+
+<details><summary>英語 UI</summary>
+
+![英語版の確認サマリ](images/en-create.jpeg)
+
+![英語版の対話フォーム](images/en-set.jpeg)
+
+</details>
+
 ## 必要要件
 
 - [`gh`](https://cli.github.com/) がインストール済みで、`gh auth login` などによる認証が完了していること

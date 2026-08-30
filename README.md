@@ -16,6 +16,24 @@ Save your preferred settings as named profiles, then reuse them through an inter
 - Use the interface in English or Japanese
 - Optionally apply saved rulesets from [`gh-rulekit`](https://github.com/nobuo-miura/gh-rulekit)
 
+## Screenshots
+
+`gh new-repo <name>` shows a summary and asks for confirmation before anything is created:
+
+![Confirmation summary](images/en-create.jpeg)
+
+Run it without a name (or with `--interactive`) to go through every setting in a form:
+
+![Interactive form](images/en-set.jpeg)
+
+<details><summary>Japanese UI</summary>
+
+![Confirmation summary in Japanese](images/ja-create.jpeg)
+
+![Interactive form in Japanese](images/ja-set.jpeg)
+
+</details>
+
 ## Requirements
 
 - [`gh`](https://cli.github.com/) installed and authenticated, for example with `gh auth login`
